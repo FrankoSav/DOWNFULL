@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<link rel="icon" type="image/x-icon" href="./img/downfull.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web de descargas gratuitas de aplicaciones y juegos.">
+    <meta name="keywords" content="descargas, gratuitas, aplicaciones, juegos">
+    <title>DownFull - Descargas Gratuitas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            margin: 0;
+            padding-top: 80px;
+            
+        }
+
+        nav {
+            background-color: #333;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 960px;
+            list-style: none;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .content {
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .feature {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .feature h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .feature h2 {
+            font-size: 2rem;
+            margin: 10px 0;
+        }
+
+        .feature p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid #4CAF50;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-button:hover {
+            background-color: #388e3c;
+            border: 1px solid #388e3c;
+        }
+
+        .feature .feature-icon {
+            max-width: 80px;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        .feature-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="./">Inicio</a></li>
+            <li><a href="./apps.html">Apps</a></li>
+            <li><a href="./games.html">Juegos</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="feature">
+            <div class="feature-details">
+                <h1>¡Descarga gratis!</h1>
+                <h2>Adobe Photoshop</h2>
+                <p>Experimenta el poder de la creatividad con la versión completa.</p>
+                <a class="download-button" href="./apps.html">Descargar ahora</a>
+            </div>
+            <img class="feature-icon" src="./img/adobe-photoshop.png" alt="Icono de Adobe Photoshop">
+        </div>
+        <img class="feature-image" src="./img/interfaz-photoshop.png" alt="Interfaz de Adobe Photoshop">
+    </div>
+    <footer>
+        <p>&copy; 2023 DownFull - Descargas Gratuitas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
